@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css2?family=Pushster&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Pushster&display=swap);
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url("../img/background.jpg") no-repeat center fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+
+/* Tete de page */
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 140px;
+}
+
+/* section.top-page {
+    background: url("../img/background.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: #464646;
+    padding: 15px;
+}*/
+
+/* Page de bienvenue */
+
+.landing-page {
+    padding: 20px 50px;
+}
+
+.scroll-down {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 170px;
+}
+
+.Big-title {
+    color: rgb(140, 180, 240);
+    font-size: 50px;
+    padding: 20px 50px;
+    font-family: "Pushster";
+    font-weight: 100;
+    margin-top: 0;
+}
+
+/* Menu de navigation */
+
+nav {
+    display: flex;
+    list-style: none;
+    color: white;
+    margin-left: 100px;
+    width: 265px;
+    justify-content: space-between;
+    font-family: "Oooh Baby";
+    font-size: 46px;
+    margin-top: 15px;
+}
+
+.imgnav {
+    margin-left: 80px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Responsive */
+
+
