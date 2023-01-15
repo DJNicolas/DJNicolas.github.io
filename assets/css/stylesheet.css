@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/********** Header **********/
+
+header {
+    position: absolute;
+    height: 64px;
+    left: 0px;
+    right: 0px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #DAD9DC;
+}
+
+.div-header {
+    display: flex;
+    margin: auto 172px auto 172px;
+}
+
+.logo-svg {
+    width: 214px;
+    height: 51px;
+}
+
+.nav {
+    width: 783.94px;
+    height: 50px;
+    margin-left: 32px;
+    align-items: center;
+}
+
+.separation:before {
+    width: 1px;
+    height: 2rem;
+    content: "";
+    display: block;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: #dad9dc;
+}
+
+/********** Body **********/
+
+.home-banner {
+    height: 416px;
+    background-color: #7451EB;
+    padding-top: 64px;
+}
+
+.home-banner-items {
+    position: absolute;
+    width: 720px;
+    height: 336px;
+    left: 172px;
+    top: 104px;
+}
+
+.home-banner-text {
+    color: white;
+    font-family: 'Inter';
+}
+
+.home-banner-text-h1 {
+    position: absolute;
+    width: 519px;
+    height: 50px;
+    top: 79px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.home-banner-text-p {
+    position: absolute;
+    width: 690.01px;
+    height: 52px;
+    top: 146px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.img-home-banner {
+    position: absolute;
+    width: 416px;
+    height: 416px;
+    left: 924px;
+    top: -32px;
+}
