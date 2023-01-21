@@ -1,0 +1,128 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+  }
+  /*
+    3. Allow percentage-based heights in the application
+  */
+  html, body {
+    height: 100%;
+  }
+  /*
+    Typographic tweaks!
+    4. Add accessible line-height
+    5. Improve text rendering
+  */
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  /*
+    6. Improve media defaults
+  */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  /*
+    7. Remove built-in form typography styles
+  */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  /*
+    8. Avoid text overflows
+  */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  /*
+    9. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  button {
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 172px;
+  }
+
+  .left {
+    display: flex;
+    gap: 32px;
+  }
+
+  header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header nav ul {
+    display: flex;
+    padding: 0;
+    gap: 64px;
+  }
+
+  header nav ul li {
+    list-style: none;
+    position: relative;
+  }
+
+  header nav ul a {
+    display: flex;
+    color: #271A38;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    gap: 2px;
+  }
+
+  header nav ul li:not(:last-child)::after {
+    content: '';
+    width: 1px;
+    height: 32px;
+    background-color: #DAD9DC;
+    position: absolute;
+    top: 0;
+    right: -32px;
+  }
+
+  .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .right #search {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+  }
+
+  .btn {
+    border: 1px solid #7451EB;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    color: #7451EB;
+    padding: 9px 17px;
+  }
