@@ -103,7 +103,7 @@ header {
     background-color: #dad9dc;
 }
 
-/********** Body **********/
+/********** Home Banner **********/
 
 .home-banner {
     height: 416px;
@@ -189,4 +189,116 @@ header {
     height: 416px;
     margin-left: 32px;
     margin-top: -254px;
+}
+
+/********** Banner 2 **********/
+
+.banner-2 {
+    display: flex;
+    margin-left: 172px;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.banner-2-item1 {
+    display: table;
+    margin-left: 96px;
+}
+
+.banner-2-item1-text {
+    display: table;
+    margin-top: 16px;
+    color: #271A38;
+}
+
+.banner-2-item1-text1 {
+    display: table;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.banner-2-item1-text2 {
+    display: table;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.banner-2-item1-img1 {
+    display: table;
+    width: 240px;
+    height: 240px;
+}
+
+/********** Banner 2 Elements 2 **********/
+
+.banner-2-item2 {
+    display: table;
+    margin-left: 96px;
+}
+
+.banner-2-item2-text {
+    display: table;
+    color: #271A38;
+    margin-top: 16px;
+}
+
+.banner-2-item2-text1 {
+    display: table;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.banner-2-item2-text2 {
+    display: table;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.banner-2-item2-img1 {
+    display: table;
+    width: 240px;
+    height: 240px;
+}
+
+/********** Banner 2 Elements 3 **********/
+
+.banner-2-item3 {
+    display: table;
+    margin-left: 96px;
+}
+
+.banner-2-item3-text {
+    display: table;
+    margin-top: 16px;
+    color: #271A38;
+}
+
+.banner-2-item3-text1 {
+    display: table;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.banner-2-item3-text2 {
+    display: table;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.banner-2-item3-img1 {
+    display: table;
+    width: 240px;
+    height: 240px;
 }
