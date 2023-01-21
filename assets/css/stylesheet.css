@@ -295,3 +295,48 @@ nav ul li:not(:last-child)::after {
     width: 240px;
     height: 240px;
 }
+
+/********** Banner Video**********/
+
+.home-banner-video-background {
+    display: flex;
+    background-color: #FFFAEE;
+}
+
+.home-banner-video {
+    display: flex;
+    margin: 72px 172px;
+}
+
+.home-banner-video-text h1 {
+    width: 451.7px;
+    height: 45px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFAEE;
+    background-color: #8A76E8;
+    text-align: center;
+}
+
+.home-banner-video-text p {
+    max-width: 567.15px;
+    height: 156px;
+    margin-top: 17px;
+    margin-right: 32.85px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #271A38;
+}
+
+.home-banner-video-text p a {
+    color: #271A38;
+}
+
+.home-banner-video img {
+    height: 319.5px;
+    justify-content: flex-end;
+}
