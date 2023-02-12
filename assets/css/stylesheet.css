@@ -157,12 +157,13 @@ nav ul li:not(:last-child)::after {
 /********** Home Banner **********/
 
 .home-banner {
+    display: flex;
     height: 416px;
     background-color: #7451EB;
+    align-items: center;
 }
 
 .home-banner-items {
-    width: 720px;
     height: 336px;
     margin-left: 172px;
     padding-top: 40px;
@@ -224,7 +225,6 @@ nav ul li:not(:last-child)::after {
     border: 1px solid #FFFAEE;
     border-radius: 4px;
     margin-left: 32px;
-    margin-right: 229px;
     font-family: 'Inter';
     font-weight: 700;
     font-size: 16px;
@@ -234,7 +234,6 @@ nav ul li:not(:last-child)::after {
 }
 
 .img-home-banner {
-    width: 416px;
     height: 416px;
     margin-left: 32px;
     margin-top: -254px;
@@ -384,4 +383,43 @@ nav ul li:not(:last-child)::after {
     margin-left: 32.85px;
     height: 319.5px;
     justify-content: flex-end;
+}
+
+/********** Banner Commentaires**********/
+
+.home-banner-com {
+    display: flex;
+    margin: 72px auto;
+    justify-content: center;
+}
+
+.home-banner-com h1 {
+    display: flex;
+    width: 451.7px;
+    height: 45px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 25px;
+    color: #271A38;
+    justify-content: center;
+}
+
+.home-banner-com-text p {
+    display: flex;
+    max-width: 567.15px;
+    height: 156px;
+    margin-top: 17px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #271A38;
+}
+
+.home-banner-com img {
+    display: flex;
+    height: 316px;
+    margin-right: 24px;
 }
