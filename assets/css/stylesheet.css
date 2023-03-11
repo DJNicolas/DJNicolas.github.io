@@ -164,9 +164,10 @@ nav ul li:not(:last-child)::after {
 }
 
 .home-banner-items {
+    display: flex;
     height: 336px;
-    margin-left: 172px;
     padding-top: 40px;
+    align-items: center;
 }
 
 .home-banner-text {
