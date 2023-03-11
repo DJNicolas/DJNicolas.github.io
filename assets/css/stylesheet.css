@@ -160,14 +160,16 @@ nav ul li:not(:last-child)::after {
     display: flex;
     height: 416px;
     background-color: #7451EB;
-    align-items: center;
+    justify-content: center;
 }
 
 .home-banner-items {
     display: flex;
-    height: 336px;
+    height: 416px;
+}
+
+.home-banner-items-left{
     padding-top: 40px;
-    justify-content: center;
 }
 
 .home-banner-text {
