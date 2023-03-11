@@ -167,7 +167,7 @@ nav ul li:not(:last-child)::after {
     display: flex;
     height: 336px;
     padding-top: 40px;
-    align-items: center;
+    justify-content: center;
 }
 
 .home-banner-text {
@@ -237,7 +237,6 @@ nav ul li:not(:last-child)::after {
 .img-home-banner {
     height: 416px;
     margin-left: 32px;
-    margin-top: -254px;
 }
 
 /********** Banner 2 **********/
